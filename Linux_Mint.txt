@@ -1,0 +1,13 @@
+Linux Mint
+
+ 1. Mettre à jour et redemarrer le système d'exploitation
+
+ 2. Installer Git
+ 
+ 3. Installer PHP et Composer via la CLI de Laravel
+
+ 4. Installer NodeJS
+
+ 5. Installer MariaDB
+
+ 6. Installer VSCode

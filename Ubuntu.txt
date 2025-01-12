@@ -1,0 +1,19 @@
+Ubuntu
+
+ 1. Mettre à jour et redemarrer le système d'exploitation
+
+ 2. Faire un sudo snap refresh et redemarrer
+
+ 3. Installer curl et redemarrer
+ 
+ 4. Installer PHP et Composer via la CLI de Laravel
+
+ 5. Installer NodeJS
+
+ 6. Installer MariaDB
+
+ 7. Installer VSCode
+
+ 8. Installer "Extensions" via Snap
+
+ 9. Installer DashToPanel via un navigateur
