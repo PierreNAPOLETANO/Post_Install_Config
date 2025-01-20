@@ -1,4 +1,4 @@
-#Pop!\_OS
+# Pop!\_OS
 
 1. Désactiver le secure boot du BIOS avant installation.
 2. Mettre à jour via `sudo apt update && upgrade` puis redémarrer
@@ -10,7 +10,7 @@
 
 Enjoy it ;)
 
-##Optionnel
+## Optionnel
 
 1. Durant installation, possibilité ou non d'encrypter les DD
 2. Configurer les préférences (localisation, keyboard, timezone, privacy, ...)
@@ -26,7 +26,7 @@ Enjoy it ;)
 10. Installer les codecs et polices multimédias propriétaires via `sudo apt install ubuntu-restricted-extras`
 11. Activer _Réduire_ et _Maximiser_ via `gnome-tweaks`
 
-##Sources ISO
+## Sources ISO
 
 1. Version basée sous Ubuntu LTS pour intel/AMD : [Pop!\_OS 22.04 LTS](https://iso.pop-os.org/22.04/amd64/intel/49/pop-os_22.04_amd64_intel_49.iso)
 2. Version basée sous Ubuntu LTS pour Nvidia : [Pop!\_OS 22.04 LTS Nvidia](https://iso.pop-os.org/22.04/amd64/nvidia/49/pop-os_22.04_amd64_nvidia_49.iso)
