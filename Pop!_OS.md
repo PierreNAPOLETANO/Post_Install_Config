@@ -6,7 +6,6 @@
 4. Installer NodeJS
 5. Installer MariaDB
 6. Installer VSCode (via flatpack ou apt ou paquet .deb)
-7. _DashToPanel_ et _Extensions_ normalement déjà installés
 
 Enjoy it ;)
 
