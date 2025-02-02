@@ -6,13 +6,24 @@ Ubuntu
 
  3. Installer curl et redemarrer
 
- 4. Installer git
+ 4. Installer Git: 
+    sudo apt-get install git
  
  5. Installer PHP et Composer via la CLI de Laravel
+    /bin/bash -c "$(curl -fsSL https://php.new/install/linux/8.4)"
 
  6. Installer NodeJS
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+    Redémarrer le terminal
+    nvm install 22
 
  7. Installer MariaDB
+    sudo apt install mariadb-server
+    sudo mysql_secure_installation
+    sudo mariadb
+    GRANT ALL ON *.* TO 'admin'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+    FLUSH PRIVILEGES;
+    exit
 
  8. Installer VSCode
 
