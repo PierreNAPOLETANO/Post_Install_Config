@@ -2,12 +2,23 @@ Linux Mint
 
  1. Mettre à jour et redemarrer le système d'exploitation
 
- 2. Installer Git
+ 2. Installer Git: 
+    sudo apt-get install git
  
  3. Installer PHP et Composer via la CLI de Laravel
+    /bin/bash -c "$(curl -fsSL https://php.new/install/linux/8.4)"
 
  4. Installer NodeJS
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+    Redémarrer le terminal
+    nvm install 22
 
  5. Installer MariaDB
+    sudo apt install mariadb-server
+    sudo mysql_secure_installation
+    sudo mariadb
+    GRANT ALL ON *.* TO 'admin'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+    FLUSH PRIVILEGES;
+    exit
 
  6. Installer VSCode
