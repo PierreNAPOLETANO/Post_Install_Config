@@ -7,6 +7,7 @@ Linux Mint
  
  3. Installer PHP et Composer via la CLI de Laravel
     /bin/bash -c "$(curl -fsSL https://php.new/install/linux/8.4)"
+    Redémarrer le terminal
 
  4. Installer NodeJS
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
